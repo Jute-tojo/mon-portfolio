@@ -1,0 +1,20 @@
+
+<router-outlet></router-outlet>
+<div class="controls">
+  <a class="control" routerLink="/accueil" data-aos="fade-left" data-aos-duration="400" routerLinkActive="active-btn" data-id="home" >
+    <i><fa-icon [icon]="faHome"></fa-icon></i>
+  </a>
+  <a class="control" routerLink="/profil" data-aos="fade-left" data-aos-duration="800" routerLinkActive="active-btn" data-id="about">
+    <i><fa-icon [icon]="faContact"></fa-icon></i>
+  </a>
+  <a class="control" routerLink="/portfolio" data-aos="fade-left" data-aos-duration="1200" routerLinkActive="active-btn" data-id="portfolio">
+    <i><fa-icon [icon]="faBriefcase"></fa-icon></i>
+  </a>
+  <a class="control" routerLink="/contact" data-aos="fade-left" data-aos-duration="1600" data-id="contact">
+    <i><fa-icon [icon]="faEnvelopesBulk"></fa-icon></i>
+
+  </a>
+</div>
+<div class="theme-btn" (click)="toggleDarkTheme()">
+    <i class="fas fa-adjust"></i>
+</div>
