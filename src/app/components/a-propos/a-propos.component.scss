@@ -107,28 +107,28 @@
   width: 94%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 90%;
+  width: 93%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .angular {
-  width: 89%;
+  width: 96%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .php {
-  width: 94%;
+  width: 92%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .bootstrap {
-  width: 91%;
+  width: 95%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .csharp {
-  width: 85%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .api {
+  width: 97%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .sql {
-  width: 90%;
+  width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .bd {
-  width: 91%;
+  width: 88%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .autre {
-  width: 93%;
+  width: 89%;
 }
 .stat-title {
   text-transform: uppercase;
@@ -245,3 +245,10 @@
   }
 }
 
+ul li{
+  font-size: 14px;
+  color: rgb(37, 140, 236);
+  a:hover{
+    text-decoration: underline;
+  }
+}
