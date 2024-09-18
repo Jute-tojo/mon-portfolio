@@ -1,0 +1,102 @@
+{
+  "portfolio": [
+    {
+      "title": "Application web de réservation",
+      "images": [
+        "reservation.png", "reservation_login.png", "reservation_about.png", "reservation_service.png"
+      ],
+      "tech": "ANGULAR"
+    },
+    {
+      "title": "Gestion de stock",
+      "images": [
+        "vente_log.png", "vente_choice.png", "vente.png", "vente_menu.png"
+      ],
+      "tech": "ANGULAR"
+    },
+    {
+      "title": "Application mobile Medidose",
+      "images": [
+        "medidose_home.png", "medidose_login.png", "medidose_profil.png", "medidose_type.png", "medidose_doser.png", "medidose_medoc.png"
+      ],
+      "tech": "IONIC ANGULAR"
+    },
+    {
+      "title": "Site vitrine Climatisation",
+      "images": [
+        "climatisation.PNG"
+      ],
+      "url": "https://climatisation-saint-tropez.fr",
+      "tech": "ANGULAR"
+    },
+    {
+      "title": "Site vitrine AAGR",
+      "images": [
+        "aagr.png"
+      ],
+      "url": "https://aagr.fr",
+      "tech": "ANGULAR"
+    },
+    {
+      "title": "Application de gestion d'école",
+      "images": [
+        "gscool.png", "gscool1.png", "gscool2.png", "gscool3.png", "gscool4.png"
+      ],
+      "tech": "LARAVEL VUEJS"
+    },
+    {
+      "title": "Maintenance d'un site MarketPlace",
+      "images": [
+        "hadeen.png"
+      ],
+      "url": "https://hadeen-place.fr",
+      "tech": "ANGULAR"
+    },
+    {
+      "title": "Maintenance vitrine Vatilab",
+      "images": [
+        "vatilab.png"
+      ],
+      "url": "https://www.vatilab.com",
+      "tech": "ANGULAR"
+    },
+    {
+      "title": "Maintenance vitrine JKAC",
+      "images": [
+        "jkac.png"
+      ],
+      "url": "https://jk-ac.com",
+      "tech": "ANGULAR"
+    },
+    {
+      "title": "Application mobile ARCHINSIDER",
+      "images": [
+        "archinsider.webp"
+      ],
+      "tech": "IONIC ANGULAR",
+      "url": "https://play.google.com/store/apps/details?id=com.new_archinsider.app&hl=ln"
+    },
+    {
+      "title": "Mon portfolio",
+      "images": [
+        "mon-portfolio.png"
+      ],
+      "tech": "ANGULAR",
+      "url": "https://tojoramaroson.netlify.app"
+    },
+    {
+      "title": "FABSTORE APP",
+      "images": [
+        "fabstore.png"
+      ],
+      "tech": "LARAVEL JQUERY AJAX"
+    },
+    {
+      "title": "Application web MAGESTI",
+      "images": [
+        "ckool.jpg"
+      ],
+      "tech": "LARAVEL JQUERY AJAX"
+    }
+  ]
+}

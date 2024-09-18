@@ -38,11 +38,13 @@
   opacity: 0;
   transform: scale(0);
   transition: all 0.4s ease-in-out;
+  cursor: pointer;
 }
 .portfolios .portfolio-item .hover-items h3 {
   font-size: 1.5rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 .portfolios .portfolio-item .hover-items .icons {
   display: flex;

@@ -6,203 +6,21 @@
 
   </p>
   <div class="portfolios">
-      <div class="portfolio-item">
+      <div class="portfolio-item" *ngFor="let item of portfolio; let i = index">
           <div class="image">
-              <img src="assets/portfolio/golden-white.png" alt="">
+              <img [src]="'assets/portfolio/'+item['images'][0]" alt="">
           </div>
-          <div class="hover-items">
-              <h3>Réalisation de site vitrine</h3>
-              <div class="icons">
-                  <a href="https://github.com/Jute-tojo" target="_blank" class="icon">
-                      <i class="fab fa-github"></i>
-                  </a>
-                  <a href="https://web.facebook.com/tjo.ramaroson" class="icon">
-                      <i class="fab fa-facebook"></i>
-                  </a>
-                  <a href="mailto:tojoramaroson5@gmail.com" class="icon">
-                      <i class="fab fa-google"></i>
-                  </a>
-              </div>
+          <div class="hover-items" (click)="open(i)">
+              <h3>{{ item['title'] }}</h3>
               <div class="description">
-            </div>
-          </div>
-      </div>
-      <div class="portfolio-item">
-        <div class="image">
-            <img src="assets/portfolio/archinsider.webp" alt="archinsider">
-        </div>
-        <div class="hover-items">
-            <h3>Archinsider</h3>
-            <div class="icons">
-                <a href="https://github.com/Jute-tojo" target="_blank" class="icon">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://web.facebook.com/tjo.ramaroson" class="icon">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="mailto:tojoramaroson5@gmail.com" class="icon">
-                    <i class="fab fa-google"></i>
-                </a>
-            </div>
-            <div class="description">
-              <p>Une application mobile</p>
-          </div>
-        </div>
-    </div>
-      <div class="portfolio-item">
-          <div class="image">
-              <img src="assets/portfolio/e_zaha.PNG" alt="">
-          </div>
-          <div class="hover-items">
-              <h3>E-ZAHA</h3>
-              <div class="icons">
-                <a href="https://github.com/Jute-tojo" target="_blank" class="icon">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="https://web.facebook.com/tjo.ramaroson" class="icon">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="mailto:tojoramaroson5@gmail.com" class="icon">
-                    <i class="fab fa-google"></i>
-                </a>
+                VOIR PROJET
               </div>
-              <div class="description">
-                <p> Site touristique (front-back)</p>
-            </div>
-          </div>
-      </div>
-      <div class="portfolio-item">
-          <div class="image">
-              <img src="assets/portfolio/portfol.jpg" alt="">
-          </div>
-          <div class="hover-items">
-              <h3>Mon Portfolio</h3>
-              <div class="icons">
-                <a href="https://github.com/Jute-tojo" target="_blank" class="icon">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="https://web.facebook.com/tjo.ramaroson" class="icon">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="mailto:tojoramaroson5@gmail.com" class="icon">
-                    <i class="fab fa-google"></i>
-                </a>
+              <div>
+                <b>{{item['tech']}}</b>
               </div>
           </div>
       </div>
-      <div class="portfolio-item">
-          <div class="image">
-              <img src="assets/portfolio/just-eat.png" alt="">
-          </div>
-          <div class="hover-items">
-              <h3>Clone Just Eat</h3>
-              <div class="icons">
-                <a href="https://github.com/Jute-tojo" target="_blank" class="icon">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="https://web.facebook.com/tjo.ramaroson" class="icon">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="mailto:tojoramaroson5@gmail.com" class="icon">
-                    <i class="fab fa-google"></i>
-                </a>
-              </div>
-              <div class="description">
-                <p> Clonage de la partie front end du site web Just Eat</p>
-            </div>
-          </div>
-      </div>
-      <div class="portfolio-item">
-          <div class="image">
-              <img src="assets/portfolio/test.jpg" alt="">
-          </div>
-          <div class="hover-items">
-              <h3>FABSTORE APP</h3>
-              <div class="icons">
-                <a href="https://github.com/Jute-tojo" target="_blank" class="icon">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="https://web.facebook.com/tjo.ramaroson" class="icon">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="mailto:tojoramaroson5@gmail.com" class="icon">
-                    <i class="fab fa-google"></i>
-                </a>
-              </div>
-              <div class="description">
-                <p> Application web pour la gestion de vente des films, dessins animés et
-                  séries chez FabStore</p>
-            </div>
-          </div>
-      </div>
-      <div class="portfolio-item">
-          <div class="image">
-              <img src="assets/portfolio/ckool.png" alt="">
-          </div>
-          <div class="hover-items">
-              <h3>C'Kooly</h3>
-              <div class="icons">
-                <a href="https://github.com/Jute-tojo" target="_blank" class="icon">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="https://web.facebook.com/tjo.ramaroson" class="icon">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="mailto:tojoramaroson5@gmail.com" class="icon">
-                    <i class="fab fa-google"></i>
-                </a>
-              </div>
-              <div class="description">
-                <p> Application web pour la gestion des écoles</p>
-            </div>
-          </div>
-      </div>
-      <div class="portfolio-item">
-          <div class="image">
-              <img src="assets/portfolio/ckool.jpg" alt="">
-          </div>
-          <div class="hover-items">
-              <h3>Projet Magesti</h3>
-              <div class="icons">
-                <a href="https://github.com/Jute-tojo" target="_blank" class="icon">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="https://web.facebook.com/tjo.ramaroson" class="icon">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="mailto:tojoramaroson5@gmail.com" class="icon">
-                    <i class="fab fa-google"></i>
-                </a>
-              </div>
-              <div class="description">
-                <p> Création d’une application web pour la gestion des commerciaux au
-                  sein de la société OneToOne Marketing</p>
-            </div>
-          </div>
-      </div>
-      <div class="portfolio-item">
-        <div class="image">
-            <img src="assets/portfolio/aloidola.jpg" alt="">
-        </div>
-        <div class="hover-items">
-            <h3>ALLÔ IDOLA</h3>
-            <div class="icons">
-              <a href="https://github.com/Jute-tojo" target="_blank" class="icon">
-                <i class="fab fa-github"></i>
-              </a>
-              <a href="https://web.facebook.com/tjo.ramaroson" class="icon">
-                  <i class="fab fa-facebook"></i>
-              </a>
-              <a href="mailto:tojoramaroson5@gmail.com" class="icon">
-                  <i class="fab fa-google"></i>
-              </a>
-            </div>
-            <div class="description">
-              <p>  Création de plusieurs jeux vidéos</p>
-          </div>
-        </div>
-    </div>
-    <div class="portfolio-item">
+    <!-- <div class="portfolio-item">
       <div class="image">
           <img src="assets/portfolio/inona.png" alt="">
       </div>
@@ -223,6 +41,6 @@
             <p> Application web pour crypter des données</p>
         </div>
       </div>
-  </div>
+  </div> -->
   </div>
 </section>

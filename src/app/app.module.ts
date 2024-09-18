@@ -9,6 +9,8 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { LightboxModule } from 'ngx-lightbox';
+import { HttpClientModule } from '@angular/common/http';
 
 const routes: Routes = [
   { path: '', redirectTo: 'accueil', pathMatch: 'full' },
@@ -29,6 +31,8 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     FontAwesomeModule,
+    LightboxModule,
+    HttpClientModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],
